@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
-    height: 100vh;
+    height: 40vh;
     margin-bottom: 28rem;
 }
 
@@ -26,16 +26,6 @@
     border-radius: 1rem;
     overflow: hidden;
 }
-
-.portfolio-img img {
-    display: block;
-    max-width:322px;
-    min-width:322px;
-    max-height:215px;
-    min-height:215px;
-    width: auto;
-    height: auto;
-  }
 
 .portfolio-item h3 {
     margin: 1.2rem 0;
@@ -100,5 +90,30 @@
     .portfolio-item {
         height: 25rem;
     }
+
+    .portfolio-img img {
+        display: block;
+        max-width:363px;
+        min-width:363px;
+        max-height:215px;
+        min-height:215px;
+        width: auto;
+        height: auto;
+    }
  
- }
+}
+
+@media screen and (min-width: 1200px) {
+    .portfolio-img img {
+        display: block;
+        max-width:323px;
+        min-width:323px;
+        max-height:215px;
+        min-height:215px;
+        width: auto;
+        height: auto;
+    }
+ 
+}
+
+
