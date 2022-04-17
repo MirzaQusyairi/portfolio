@@ -61,6 +61,12 @@ input:hover, textarea:hover {
     border-color: var(--primary-color);
 }
 
+.btn {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
 /* media queries (tablets) */
 @media screen and (max-width: 1024px) {
     .contact-container {
