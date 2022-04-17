@@ -1,0 +1,37 @@
+footer {
+    height: 25vh;
+    background: var(--bg-color);
+    position: relative;
+    bottom: 0; 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.footer-icon {
+    margin-top: 4rem;
+    font-size: 1rem;
+}
+
+.footer-icon .icon {
+    position: relative;
+    top: 2px;
+    color: red;
+}
+
+/* media queries (tablets) */
+@media screen and (max-width: 1024px) {
+    .footer-container {
+        bottom: 0; 
+    } 
+ }
+ 
+ /* media queries (mobile devices) */
+ @media screen and (max-width: 600px) {
+    .footer-icon {
+        margin-top: 2.5rem;
+    }
+ }
